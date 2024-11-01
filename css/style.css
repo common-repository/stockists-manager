@@ -1,0 +1,42 @@
+#woocommerce-coupon-data ul.wc-tabs li.stockists_options a:before, 
+#woocommerce-product-data ul.wc-tabs li.stockists_options a:before, 
+.woocommerce ul.wc-tabs li.stockists_options a:before{
+	content: "\e02c";
+}
+
+span.premium_stockist{
+	background: none repeat scroll 0 0 #FFDA4A;
+	border-radius: 6px;
+	color: #3A3A3A;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 10px;
+	margin-left: 10px;
+	padding: 7px;
+}
+
+#category_add_modal{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	height: 160px;
+	width: 320px;
+	margin-left: -161px;
+	margin-top: -81px;
+	border: 1px solid grey;
+	background: white;
+	display: none;
+}
+
+#category_add_modal > div{
+	padding: 20px 30px;
+}
+
+#category_add_modal_close{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	cursor: pointer;
+}
